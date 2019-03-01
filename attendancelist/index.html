@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Attendance</title>
+  </head>
+  <body>
+  <section class="centerPage">
+    <h1 style="text-align: center;">ATTENDANCE LIST</h1>
+    <section style="color: white; background: black;" id="mainWrapper">
+
+        <section class="inputs">
+
+            <input id="onTime" type="search" name="onTime" placeholder="Present">
+            <input id="Late" type="search" name="Late" placeholder="Late">
+
+          </section>
+
+        <section>
+        <h2> Present List </h2>
+          <ul id="PresentList">
+
+          </ul>
+        </section>
+
+        <section>
+        <h2> Late List </h2>
+          <ul id="LateList">
+
+          </ul>
+        </section>
+
+        <section>
+        <h2> Show All </h2>
+          <ul id="showAll">
+
+          </ul>
+        </section>
+
+        <section class="buttonContainer">
+          <button id="onTimeBtn" type="button" name="Present"> + Present </button>
+          <button id="LateBtn" type="button" name="Late"> + Late </buttn>
+          <button id="showAllLate" type="button" name="Late"> Late = </button>
+          <button id="showAllOnTime" type="button" name="Late"> Present = </button>
+          <button id="show" type="button" name="showAll">Show All Present and Late</button>
+          <button id="clearAll" type="button" name="button">Clear</button>
+        </section>
+
+    </section>
+</section>
+
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
